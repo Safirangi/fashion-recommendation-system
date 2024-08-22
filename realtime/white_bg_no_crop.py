@@ -5,7 +5,7 @@ from PIL import Image
 import io
 import cv2
 
-API_URL = "https://api-inference.huggingface.co/models/mattmdjaga/segformer_b2_clothes"
+API_URL = "HUGGING_FACE_API_URL"  # actual API URL was erased
 headers = {"Authorization": "Bearer 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"}
 
 def query(filename):
